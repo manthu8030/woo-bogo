@@ -22,7 +22,7 @@ Automatically adds a free product in WooCommerce based on Buy 2 Get 1 Free or Bu
 - Displays a message for free products in the cart and checkout.
 - Sets the price of the free product to zero.
 
-# Installation==
+# Installation
 
 1. Download the plugin as a zip file.
 2. Go to your WordPress admin dashboard and navigate to **Plugins** -> **Add New**.
