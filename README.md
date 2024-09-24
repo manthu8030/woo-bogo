@@ -1,12 +1,12 @@
 # WooCommerce BOGO Free Plugin
-Contributors: Manthan Desai
-Tags: woocommerce, bogo, buy 2 get 1 free, buy 3 get 1 free, free product
-Requires at least: 5.0
-Tested up to: 6.0
-Requires PHP: 7.2
-Stable tag: 1.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+* Contributors: Manthan Desai
+* Tags: woocommerce, bogo, buy 2 get 1 free, buy 3 get 1 free, free product
+* Requires at least: 5.0
+* Tested up to: 6.0
+* Requires PHP: 7.2
+* Stable tag: 1.0
+* License: GPLv3 or later
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Automatically adds a free product in WooCommerce based on Buy 2 Get 1 Free or Buy 3 Get 1 Free logic.
 
