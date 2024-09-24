@@ -26,7 +26,7 @@ Automatically adds a free product in WooCommerce based on Buy 2 Get 1 Free or Bu
 
 1. Download the plugin as a zip file.
 2. Go to your WordPress admin dashboard and navigate to **Plugins** -> **Add New**.
-3. Click **Upload Plugin** and upload the `woocommerce-bogo-free.zip` file.
+3. Click **Upload Plugin** and upload the zip file.
 4. Click **Install Now** and then **Activate** the plugin.
 
 # Changelog 
