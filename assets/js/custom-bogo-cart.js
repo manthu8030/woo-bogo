@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(cartContainer, { childList: true, subtree: true });
     }
 });
+ 

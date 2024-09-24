@@ -106,3 +106,5 @@ function custom_bogo_cart_script() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'custom_bogo_cart_script' );
+ 
+ 
