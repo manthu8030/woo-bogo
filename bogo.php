@@ -93,3 +93,16 @@ function add_free_product_label_in_cart( $title, $cart_item, $cart_item_key ) {
 }
 add_filter( 'woocommerce_cart_item_name', 'add_free_product_label_in_cart', 10, 3 );
 
+// Enqueue custom JavaScript for block-based cart page
+function custom_bogo_cart_script() {
+    if ( is_cart() || is_checkout() ) { // Enqueue only on the cart or checkout page
+        wp_enqueue_script(
+            'custom-bogo-cart',
+            plugin_dir_url( __FILE__ ) . 'assets/js/custom-bogo-cart.js',
+            array( 'wp-blocks', 'wp-element', 'wp-components', 'wc-blocks-checkout' ),
+            time(), // Change this to version if needed
+            true
+        );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'custom_bogo_cart_script' );
