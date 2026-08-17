@@ -7,7 +7,7 @@
  * Author URI: https://github.com/manthu8030
  */
 
-function auto_add_free_product_with_message() {
+function auto_add_free_product_with_message() { 
     // Set the Buy X Get 1 Free rules
     $b2g1_tag = 'buy-2-get-1'; // Replace with your specific tag slug for "Buy 2 Get 1 Free"
     
